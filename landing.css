@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.card-background{
+    background-image:url("airplane2.jpg");
+    height: 100vh;
+    background-size:cover;
+}
+
+.logo-title{
+    font-family: Sans-serif typeface;
+    font-weight: 700;
+    background: -webkit-linear-gradient(45deg,#ed3405,#ae116d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+.title{
+    font-family:sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 16px;
+}
+.box{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px;
+}
+.box:hover input{
+    width: 150px;
+    
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-family:sans-serif;
+    font-weight: 400;
+    transition: 0.8s;
+    background: transparent;
+}
+.card-heading{
+    font-family:sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(31, 7, 7);
+}
+
+p{
+    line-height: 1.3em;
+}
+.card-button{
+    border: 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 6px;
+}
+.card-button:hover{
+    font-weight: 600;
+    transition: 0.2s;
+    cursor: pointer;
+    width: 150px;
+    color:cadetblue;
+}
+
+.search-field{
+    height: 50px;
+    padding:  10px;
+    border: none;
+    border-radius: px;
+    outline: none;
+}
+.business{
+    width: 300px;
+}
+.search-btn{
+    height: 50px;
+    width: 110px;
+    outline: none;
+    color: rgb(11, 8, 8);
+    font-weight: bold;
+}
+.search-btn:hover{
+    background-color:transparent;
+    color: rgb(220, 235, 236);
+    cursor: pointer;
+    transition: 0.2s;
+}
